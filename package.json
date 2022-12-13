@@ -1,0 +1,26 @@
+{
+  "name": "my-npm-package",
+  "version": "1.0.0",
+  "description": "TNAF-zajecia4-MS",
+  "main": "TNAF-zajecia4-MS/src/main.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RimbiBimbi1/TNAF-zajecia4-MS.git"
+  },
+  "keywords": [
+    "TNAF"
+  ],
+  "author": "Michał Szczepański",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RimbiBimbi1/TNAF-zajecia4-MS/issues"
+  },
+  "homepage": "https://github.com/RimbiBimbi1/TNAF-zajecia4-MS#readme",
+  "devDependencies": {
+    "parcel": "^2.8.1"
+  }
+}
