@@ -1,0 +1,64 @@
+body{
+   background-color: #1a1e35;
+    color: #ffffff;
+    font-family: Consolas;
+}
+.wrapper{
+    display: flex;
+
+    background-color: #2f8ab0;
+}
+
+.cookieBox{
+    flex-basis: 50%;
+    text-align: center;
+
+}
+
+.upgradesBox{
+    flex-basis: 50%;
+}
+
+.upgrade{
+    display: flex;
+}
+
+.attrFrame{
+    flex-basis: 50%;
+    display: flex;
+}
+.buttonFrame{
+    flex-basis: 50%;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+#cookieButton{
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+    border-radius: 200px;
+    transition: ease-in-out 50ms;
+}
+
+
+.upBut{
+    justify-self: center;
+    align-self: center;
+
+    background-color: rgb(73, 79, 112);
+    border-radius: 5px;
+    border: 1px solid white;
+    transition: ease-in-out 50ms;
+}
+
+.clickable{
+    background-color: rgb(29, 46, 73);
+}
+
+.clickable:hover{
+    background-color: rgba(89, 183, 19, 1);
+}
+
+
