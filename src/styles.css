@@ -1,12 +1,75 @@
 body{
-   background-color: #1a1e35;
-    color: #ffffff;
-    font-family: Consolas;
+   background-color: #5b4f37;
+    color: #47300b;
+    font-family: Tahoma, sans-serif;
+    overflow-x: hidden;
+    margin:0;
 }
-.wrapper{
-    display: flex;
 
-    background-color: #2f8ab0;
+h3{
+    margin: 0.5rem 0;
+}
+
+a{
+    text-decoration: none;
+    color: #f7e6ca;
+}
+
+a:hover{
+    color: #fcf7ed;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.header{
+    display: flex;
+    width: 25%;
+
+    padding: 0.5rem 1rem;
+
+    align-self: center;
+    border-radius: 10px 10px 0 0 ;
+    justify-content: center;
+
+    color: #47300b;
+    background-color: #d6af85;
+}
+
+.footer{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+
+    padding: 0.5rem 1rem;
+
+    align-self: center;
+    border-radius: 0 0 10px 10px ;
+    justify-content: center;
+
+    color: #47300b;
+    background-color: #d6af85;
+}
+
+.centered{
+    align-self: center;
+}
+
+.main{
+    display: flex;
+    width: 80%;
+    padding: 2rem 1rem;
+    margin: auto;
+    border-radius: 5px;
+
+    background-color: #e6cdb3;
+
+
 }
 
 .cookieBox{
@@ -21,16 +84,19 @@ body{
 
 .upgrade{
     display: flex;
+    padding: 0.5rem;
 }
 
 .attrFrame{
     flex-basis: 50%;
+
+    justify-content: end;
     display: flex;
+    flex-direction: column;
 }
 .buttonFrame{
     flex-basis: 50%;
     justify-content: center;
-    align-self: center;
     text-align: center;
 }
 
@@ -47,18 +113,21 @@ body{
     justify-self: center;
     align-self: center;
 
-    background-color: rgb(73, 79, 112);
+    padding: 0.5rem;
+
+    background-color: rgb(177, 138, 97);
+
     border-radius: 5px;
-    border: 1px solid white;
+    border: 3px solid #47300b;
     transition: ease-in-out 50ms;
 }
 
 .clickable{
-    background-color: rgb(29, 46, 73);
+    background-color: rgb(214, 175, 133);
 }
 
 .clickable:hover{
-    background-color: rgba(89, 183, 19, 1);
+    background-color: rgb(223, 154, 42);
 }
 
 

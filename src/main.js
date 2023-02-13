@@ -1,5 +1,6 @@
 const cookieButton=document.getElementById("cookieButton");
 const cookieCounter=document.getElementById("cookieCounter");
+const cPSInfo=document.getElementById("cPSInfo")
 
 const upgradeButton1=document.getElementById("upBut1");
 const upgradeCost1=document.getElementById("upCost1");
@@ -8,6 +9,7 @@ const upgradeLevel1=document.getElementById("upVal1");
 const upgradeButton2=document.getElementById("upBut2");
 const upgradeCost2=document.getElementById("upCost2");
 const upgradeLevel2=document.getElementById("upVal2");
+
 
 const upgradeButton3=document.getElementById("upBut3");
 const upgradeCost3=document.getElementById("upCost3");
@@ -20,6 +22,7 @@ const upgradeLevel4=document.getElementById("upVal4");
 const upgradeButton5=document.getElementById("upBut5");
 const upgradeCost5=document.getElementById("upCost5");
 const upgradeLevel5=document.getElementById("upVal5");
+
 
 
 let cookies=0;
@@ -36,6 +39,7 @@ const refreshUI = () => {
         else upgradeButtons.at(i).classList.remove("clickable");
     }
     cookieCounter.innerText="Your cookies: " + cookies.toFixed(1);
+    cPSInfo.innerText="Cookies per Second: " + CPS.toFixed(1)
     upgradeCost1.innerText="Cost: "+upgradeCosts[0];
     upgradeCost2.innerText="Cost: "+upgradeCosts[1];
     upgradeCost3.innerText="Cost: "+upgradeCosts[2];
