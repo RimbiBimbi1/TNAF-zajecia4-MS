@@ -2,12 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Cookie Clicker</title>
+    <link rel="icon" href="img/icon.ico" />
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <script type="module" src="main.js"></script>
+    <div class="wrapper">
+        <header class="header"><h1>COOKIE CLICKER</h1></header>
+        <main class="main">
+            <div class="cookieBox">
+                <h3 id="cookieCounter">Your cookies: 0</h3>
+                <h3 id="cPSInfo">Cookies per Second: 0</h3>
+                <div>
+                    <img id="cookieButton" src="img/cookie.png" alt="cookie">
+                </div>
+            </div>
+            <div class="upgradesBox">
+                <div class="upgrade">
+                    <div class="attrFrame">
+                        <h3 id ="upVal1">Cursors: 0</h3>
+                        <div id="upCost1">(Cost: 10)</div>
+                        <div>(+0.1 Cookies per Second)</div>
+                    </div>
+                    <div class="buttonFrame">
+                        <div id="upBut1" class="upBut">Level up</div>
+
+                    </div>
+                </div>
+                <div class="upgrade">
+                    <div class="attrFrame">
+                        <h3 id ="upVal2">Grannies: 0</h3>
+                        <div id="upCost2">(Cost: 100)</div>
+                        <div>(+1 Cookies per Second)</div>
+                    </div>
+                    <div class="buttonFrame">
+                        <div id="upBut2" class="upBut">Level up</div>
+
+                    </div>
+                </div>
+                <div class="upgrade">
+                    <div class="attrFrame">
+                        <h3 id ="upVal3">Miners: 0</h3>
+                        <div id="upCost3">(Cost: 1000)</div>
+                        <div>(+5 Cookies per Second)</div>
+                    </div>
+                    <div class="buttonFrame">
+                        <div id="upBut3" class="upBut">Level up</div>
+                    </div>
+                </div>
+                <div class="upgrade">
+                    <div class="attrFrame">
+                        <h3 id ="upVal4">Cookie Refineries: 0</h3>
+                        <div id="upCost4">(Cost: 5000)</div>
+                        <div>(+10 Cookies per Second)</div>
+                    </div>
+                    <div class="buttonFrame">
+                        <div id="upBut4" class="upBut">Level up</div>
+                    </div>
+                </div>
+                <div class="upgrade">
+                    <div class="attrFrame">
+                        <h3 id ="upVal5">Cookie Black Holes: 0</h3>
+                        <div id="upCost5">(Cost: 100000)</div>
+                        <div>(+100 Cookies per Second)</div>
+                    </div>
+                    <div class="buttonFrame">
+                        <div id="upBut5" class="upBut">Level up</div>
+
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="centered">Created by: <a>Michał Szczepański</a></div>
+            <div class="centered">
+                My GitHub profile: <a href="https://github.com/RimbiBimbi1">Click here!</a>
+            </div>
+            <div class="centered">Created for learning purposes.</div>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
 </body>
-
-
 </html>
